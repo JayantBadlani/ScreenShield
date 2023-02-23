@@ -17,7 +17,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## CocoaPods
 To install ScreenShield using CocoaPods, add the following line to your Podfile:
 
+```ruby
 pod 'ScreenShield'
+```
 Then, run pod install to install the library and its dependencies.
 
 ## Swift Package Manager
