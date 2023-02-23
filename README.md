@@ -1,4 +1,7 @@
 # ScreenShield
+
+https://user-images.githubusercontent.com/37996543/220929205-d5493e8d-ea69-46a9-9476-3bbf4bc1cffe.mov
+
 ScreenShield is an iOS library that provides a simple way to protect your app's content from being captured or recorded by screenshots, screen recordings, or other screen capture methods. It works by adding a secure layer on top of your views, which prevents most screen capture mechanisms from recording the underlying content.
 
 The library supports both UIKit and SwiftUI and can be used with ease in both. It also provides a way to start and stop listening for screen recordings, and can be customized to use different types of views
