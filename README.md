@@ -3,7 +3,6 @@ ScreenShield is an iOS library that provides a simple way to protect your app's 
 
 The library supports both UIKit and SwiftUI and can be used with ease in both. It also provides a way to start and stop listening for screen recordings, and can be customized to use different types of views
 
-[![CI Status](https://img.shields.io/travis/Jayant Badlani/ScreenShield.svg?style=flat)](https://travis-ci.org/Jayant Badlani/ScreenShield)
 [![Version](https://img.shields.io/cocoapods/v/ScreenShield.svg?style=flat)](https://cocoapods.org/pods/ScreenShield)
 [![License](https://img.shields.io/cocoapods/l/ScreenShield.svg?style=flat)](https://cocoapods.org/pods/ScreenShield)
 [![Platform](https://img.shields.io/cocoapods/p/ScreenShield.svg?style=flat)](https://cocoapods.org/pods/ScreenShield)
