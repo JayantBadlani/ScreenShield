@@ -76,7 +76,7 @@ struct ContentView: View {
 
 That's it! With just a few lines of code, you can protect your app's content and prevent it from being recorded or captured by unwanted screen capture mechanisms.
 
-### Note: This library is currently under development and not fully tested. Contribution is gladly accepted.Note: This library is currently under development and not fully tested. Contribution is gladly accepted.
+### Note: This library is currently under development and not fully tested. Contribution is gladly accepted.
 
 
 License
