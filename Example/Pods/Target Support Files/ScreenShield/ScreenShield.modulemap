@@ -1,0 +1,6 @@
+framework module ScreenShield {
+  umbrella header "ScreenShield-umbrella.h"
+
+  export *
+  module * { export * }
+}

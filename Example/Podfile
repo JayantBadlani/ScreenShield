@@ -1,0 +1,19 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'ScreenShield_Example' do
+  pod 'ScreenShield', :path => '../'
+  # pod 'ScreenShield'
+end
+
+target 'SwiftUI Example' do
+  pod 'ScreenShield', :path => '../'
+end
+
+target 'ScreenShield_Tests' do
+  inherit! :search_paths
+end
+
+
+

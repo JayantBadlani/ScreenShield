@@ -1,0 +1,16 @@
+PODS:
+  - ScreenShield (0.1.0)
+
+DEPENDENCIES:
+  - ScreenShield (from `../`)
+
+EXTERNAL SOURCES:
+  ScreenShield:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ScreenShield: e0a6a7145db60d8e80a7d07a2050e402d452f4b0
+
+PODFILE CHECKSUM: 7f161df7c9e47c4a0f4c8e55f6afdc882e87f531
+
+COCOAPODS: 1.11.3
