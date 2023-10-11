@@ -43,8 +43,8 @@ import ScreenShield
 
 class ViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewDidAppear() {
+        super.viewDidAppear()
         
         // Protect ScreenShot
         ScreenShield.shared.protect(view: self.view)
