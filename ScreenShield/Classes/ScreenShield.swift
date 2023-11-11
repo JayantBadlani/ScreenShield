@@ -115,7 +115,7 @@ extension UIView {
         
         #if os(iOS)
         layer.superlayer?.addSublayer(secureTextField.layer)
-        secureTextField.layer.sublayers?.first?.addSublayer(layer)
+        secureTextField.layer.sublayers?.last?.addSublayer(layer)
         
         secureTextField.topAnchor.constraint(equalTo: self.topAnchor, constant: 0).isActive = true
         secureTextField.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: 0).isActive = true
