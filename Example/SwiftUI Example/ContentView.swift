@@ -13,15 +13,16 @@ import ScreenShield
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Sensative Information")
+                .padding(.bottom, 50)
+                .font(.title)
+            Image("sensitive1")
+                .resizable()
+                .frame(maxWidth: .infinity)
+                .aspectRatio(contentMode: .fit)
         }
         .padding()
         .protectScreenshot()
-        
-        
     }
 }
 
