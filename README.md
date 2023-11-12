@@ -28,7 +28,7 @@ Then, run pod install to install the library and its dependencies.
 To install ScreenShield using Swift Package Manager, add the following line to your Package.swift:
 
 dependencies: [
-    .package(url: "https://github.com/JayantBadlani/ScreenShield", from: "0.1.0")
+    .package(url: "https://github.com/JayantBadlani/ScreenShield", from: "1.0.0")
 ]
 Then, run swift package update to download the library and its dependencies.
 
