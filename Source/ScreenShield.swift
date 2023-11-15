@@ -1,36 +1,13 @@
+
+
 import UIKit
 import SwiftUI
 
-public extension View {
-    func protectScreenshot() -> some View {
-        let guardView = ProtectView()
-        return self.background(guardView)
-    }
-}
 
-private struct ProtectView: UIViewRepresentable {
-    #if os(iOS)
-    func makeUIView(context: Context) -> UIView {
-        let view = UIView()
-        view.setScreenCaptureProtection()
-        return view
-    }
-    
-    func updateUIView(_ uiView: UIView, context: Context) { }
-    #else
-    func makeNSView(context: Context) -> NSView {
-        let view = NSView()
-        view.setScreenCaptureProtection()
-        return view
-    }
-    
-    func updateNSView(_ nsView: NSView, context: Context) { }
-    #endif
-}
-
+// MARK: UIKit
 public class ScreenShield {
-    public static let shared = ScreenShield()
     
+    public static let shared = ScreenShield()
     private var blurView: UIVisualEffectView?
     private var recordingObservation: NSKeyValueObservation?
     
@@ -85,7 +62,6 @@ public class ScreenShield {
     }
 }
 
-
 extension UIView {
     
     private struct Constants {
@@ -113,7 +89,7 @@ extension UIView {
         insertSubview(secureTextField, at: 0)
         secureTextField.isUserInteractionEnabled = false
         
-        #if os(iOS)
+#if os(iOS)
         layer.superlayer?.addSublayer(secureTextField.layer)
         secureTextField.layer.sublayers?.last?.addSublayer(layer)
         
@@ -121,12 +97,157 @@ extension UIView {
         secureTextField.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: 0).isActive = true
         secureTextField.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 0).isActive = true
         secureTextField.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 0).isActive = true
-        #else
+#else
         secureTextField.frame = bounds
         secureTextField.wantsLayer = true
         secureTextField.layer?.addSublayer(layer!)
         addSubview(secureTextField)
-        #endif
+#endif
+    }
+}
+
+
+
+//MARK:  SwiftUI
+public struct ProtectScreenshot: ViewModifier {
+    public func body(content: Content) -> some View {
+        ScreenshotProtectView { content }
+    }
+}
+
+public extension View {
+    func protectScreenshot() -> some View {
+        modifier(ProtectScreenshot())
+    }
+}
+
+struct ScreenshotProtectView<Content: View>: UIViewControllerRepresentable {
+    typealias UIViewControllerType = ScreenshotProtectingHostingViewController<Content>
+    
+    private let content: () -> Content
+    
+    init(@ViewBuilder content: @escaping () -> Content) {
+        self.content = content
+    }
+    
+    func makeUIViewController(context: Context) -> UIViewControllerType {
+        ScreenshotProtectingHostingViewController(content: content)
+    }
+    
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {}
+}
+
+final class ScreenshotProtectingHostingViewController<Content: View>: UIViewController {
+    private let content: () -> Content
+    private let wrapperView = ScreenshotProtectingView()
+    
+    init(@ViewBuilder content: @escaping () -> Content) {
+        self.content = content
+        super.init(nibName: nil, bundle: nil)
+        setupUI()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func setupUI() {
+        view.addSubview(wrapperView)
+        wrapperView.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            wrapperView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            wrapperView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            wrapperView.topAnchor.constraint(equalTo: view.topAnchor),
+            wrapperView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        ])
+        
+        let hostVC = UIHostingController(rootView: content())
+        hostVC.view.translatesAutoresizingMaskIntoConstraints = false
+        
+        addChild(hostVC)
+        wrapperView.setup(contentView: hostVC.view)
+        hostVC.didMove(toParent: self)
+    }
+}
+
+
+public final class ScreenshotProtectingView: UIView {
+    
+    private var contentView: UIView?
+    private let textField = UITextField()
+    private lazy var secureContainer: UIView? = try? getSecureContainer(from: textField)
+    
+    public init(contentView: UIView? = nil) {
+        self.contentView = contentView
+        super.init(frame: .zero)
+        setupUI()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func setupUI() {
+        textField.backgroundColor = .clear
+        textField.isUserInteractionEnabled = false
+        textField.isSecureTextEntry = true
+        
+        guard let container = secureContainer else { return }
+        
+        addSubview(container)
+        container.translatesAutoresizingMaskIntoConstraints = false
+        
+        NSLayoutConstraint.activate([
+            container.leadingAnchor.constraint(equalTo: leadingAnchor),
+            container.trailingAnchor.constraint(equalTo: trailingAnchor),
+            container.topAnchor.constraint(equalTo: topAnchor),
+            container.bottomAnchor.constraint(equalTo: bottomAnchor)
+        ])
+        
+        guard let contentView = contentView else { return }
+        setup(contentView: contentView)
+    }
+    
+    public func setup(contentView: UIView) {
+        self.contentView?.removeFromSuperview()
+        self.contentView = contentView
+        
+        guard let container = secureContainer else { return }
+        
+        container.addSubview(contentView)
+        container.isUserInteractionEnabled = isUserInteractionEnabled
+        contentView.translatesAutoresizingMaskIntoConstraints = false
+        
+        let bottomConstraint = contentView.bottomAnchor.constraint(equalTo: container.bottomAnchor)
+        bottomConstraint.priority = .required - 1
+        
+        NSLayoutConstraint.activate([
+            contentView.leadingAnchor.constraint(equalTo: container.leadingAnchor),
+            contentView.trailingAnchor.constraint(equalTo: container.trailingAnchor),
+            contentView.topAnchor.constraint(equalTo: container.topAnchor),
+            bottomConstraint
+        ])
+    }
+    
+    func getSecureContainer(from view: UIView) throws -> UIView {
+        let containerName: String
+        
+        if #available(iOS 15, *) {
+            containerName = "_UITextLayoutCanvasView"
+        } else if #available(iOS 14, *) {
+            containerName = "_UITextFieldCanvasView"
+        } else {
+            let currentIOSVersion = (UIDevice.current.systemVersion as NSString).floatValue
+            throw NSError(domain: "YourDomain", code: -1, userInfo: ["UnsupportedVersion": currentIOSVersion])
+        }
+        
+        let containers = view.subviews.filter { type(of: $0).description() == containerName }
+        
+        guard let container = containers.first else {
+            throw NSError(domain: "YourDomain", code: -1, userInfo: ["ContainerNotFound": containerName])
+        }
+        
+        return container
     }
 }
 
