@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07B20758F26F18D4FD2D27DD50E408DD /* ScreenShield-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB745E36408B119F800B79CB6076D37 /* ScreenShield-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07B20758F26F18D4FD2D27DD50E408DD /* ScreenShield-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA001D3AA4275384B66E168CFA1B921 /* ScreenShield-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A7EF262DDEE506B2F8332DFA5871643 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E43695CA18D2ECCB99629180AF405 /* Foundation.framework */; };
 		592378377CBAF9F05378DAD27827427A /* Pods-UIKit Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81030A01CDE79A2420A9AF6F13C34BEC /* Pods-UIKit Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D8577F8CA7333C51E078904E8B3C522 /* ScreenShield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642575AC8088ADA92D0DCB51360F7182 /* ScreenShield.swift */; };
 		6712216DF0A95244625AA27BD002A9D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9D6B54EB35BA403010B12AB1B9AEED /* UIKit.framework */; };
 		6EF1CB5F792F4492B94C3360824222F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E43695CA18D2ECCB99629180AF405 /* Foundation.framework */; };
 		8831D893BACB2DF63DE228F47C999D69 /* Pods-SwiftUI Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520CA8E9091EB3203807E2347758080 /* Pods-SwiftUI Example-dummy.m */; };
 		9CEFE2DD2336930E996DF876564C7B44 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0E36001E64A26C7642A7F2A40EC757 /* SwiftUI.framework */; };
 		A6B516F71E70949C7C77F92F0DE41410 /* Pods-UIKit Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7065B84DDD81E7365AF20166C01C60C0 /* Pods-UIKit Example-dummy.m */; };
+		BCEE378D481F325224BACE65CD02F288 /* ScreenShield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A54BEFEBDD7C8A364FFDA7B6E73436 /* ScreenShield.swift */; };
 		D87FC508D1346D2DD9B00D1E104AB074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E43695CA18D2ECCB99629180AF405 /* Foundation.framework */; };
 		E62EC901881F5CA34A4064B2D2CEA06E /* Pods-SwiftUI Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF0B501E87AF974585D39FBF7533FAD /* Pods-SwiftUI Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAADC286DEAFC34E57581E5DCA1D6A63 /* ScreenShield-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B7D0BB0AD2F049B7D10A0C4D0AA6EC /* ScreenShield-dummy.m */; };
+		FAADC286DEAFC34E57581E5DCA1D6A63 /* ScreenShield-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B38309DDCA6A62226B21E75835C742 /* ScreenShield-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,42 +39,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B38309DDCA6A62226B21E75835C742 /* ScreenShield-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScreenShield-dummy.m"; sourceTree = "<group>"; };
+		0D0ABF6369C0987ECDA77CE78BE4AD27 /* ScreenShield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenShield.debug.xcconfig; sourceTree = "<group>"; };
 		0D893EBFCE7D82FA586FDE1EA5499F61 /* ScreenShield */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScreenShield; path = ScreenShield.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		156DA1B524BF2918AF4884138E01E03E /* Pods-UIKit Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKit Example-Info.plist"; sourceTree = "<group>"; };
+		1EBAAC87C946563757472D4C5A92FA2B /* ScreenShield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenShield.release.xcconfig; sourceTree = "<group>"; };
 		1F33773135BF5EA960937863AE8E54AC /* Pods-SwiftUI Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1F366659A0B382B81EF1AB4AFF59C3EC /* ScreenShield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenShield.release.xcconfig; sourceTree = "<group>"; };
 		1F6E43695CA18D2ECCB99629180AF405 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		20599648038BEB9FFAF9861A1C325690 /* Pods-UIKit Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKit Example.debug.xcconfig"; sourceTree = "<group>"; };
 		205B47527F3DA2F02580FA5CD4D51554 /* Pods-UIKit Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIKit Example-frameworks.sh"; sourceTree = "<group>"; };
+		2757E60BDFF466B4979DBFADA5D4DE1E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		297FE659A2261F7C58501D8DDA7AEBA0 /* Pods-UIKit Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKit Example.release.xcconfig"; sourceTree = "<group>"; };
+		2B57F12D2AAAF98E30B7438EDD76C418 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2DF0B501E87AF974585D39FBF7533FAD /* Pods-SwiftUI Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUI Example-umbrella.h"; sourceTree = "<group>"; };
+		2FA001D3AA4275384B66E168CFA1B921 /* ScreenShield-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenShield-umbrella.h"; sourceTree = "<group>"; };
 		35BC331AE857D46A8CA4C5518158315B /* Pods-UIKit Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKit Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3E606675E456B10EDC31292EE4B677D6 /* Pods-UIKit Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIKit Example.modulemap"; sourceTree = "<group>"; };
-		4FEF173D68B4B200BD0792FACA398D02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		642575AC8088ADA92D0DCB51360F7182 /* ScreenShield.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenShield.swift; path = ScreenShield/Classes/ScreenShield.swift; sourceTree = "<group>"; };
+		52A54BEFEBDD7C8A364FFDA7B6E73436 /* ScreenShield.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenShield.swift; path = Source/ScreenShield.swift; sourceTree = "<group>"; };
 		7065B84DDD81E7365AF20166C01C60C0 /* Pods-UIKit Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIKit Example-dummy.m"; sourceTree = "<group>"; };
 		70BED8219D3E1A2297AF0ABAFAB79616 /* Pods-SwiftUI Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI Example.release.xcconfig"; sourceTree = "<group>"; };
 		7520CA8E9091EB3203807E2347758080 /* Pods-SwiftUI Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUI Example-dummy.m"; sourceTree = "<group>"; };
-		7592388FDF06FBE1E2FEB09AF4DED37E /* ScreenShield-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenShield-prefix.pch"; sourceTree = "<group>"; };
-		7EDE1AE49339601E44D845F74E2E4442 /* ScreenShield-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScreenShield-Info.plist"; sourceTree = "<group>"; };
 		81030A01CDE79A2420A9AF6F13C34BEC /* Pods-UIKit Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIKit Example-umbrella.h"; sourceTree = "<group>"; };
-		8B49628F31BE32BEFE9E18A9D283CDF5 /* ScreenShield.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ScreenShield.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E13288E3625343A69B1845AB92AA2D4 /* ScreenShield-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScreenShield-Info.plist"; sourceTree = "<group>"; };
+		8FC1735503DFD31FDF961B4B394E779D /* ScreenShield.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ScreenShield.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A45699997F41BB27E1E5D5B5D825587 /* Pods-SwiftUI Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUI Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5B7D0BB0AD2F049B7D10A0C4D0AA6EC /* ScreenShield-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScreenShield-dummy.m"; sourceTree = "<group>"; };
 		AAAF0418EAADB707A60FE817AEB35271 /* Pods-SwiftUI Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftUI Example"; path = Pods_SwiftUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00E573E7227428DF8B4636B6CE8A1B7 /* Pods-UIKit Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIKit Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEA3F46AA1CFDE59ADDB9E09D1D668FF /* ScreenShield-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenShield-prefix.pch"; sourceTree = "<group>"; };
 		C57727EAFEA888BAF8E76BB85554B7B0 /* Pods-UIKit Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIKit Example"; path = Pods_UIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B88941198EF55A44404BBED12BFB27 /* Pods-SwiftUI Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CC0E36001E64A26C7642A7F2A40EC757 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
-		CC188EEA6A4CF508895791F22695353A /* ScreenShield.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScreenShield.modulemap; sourceTree = "<group>"; };
+		D99810BEFDB36F9B85F61E77DAB44788 /* ScreenShield.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScreenShield.modulemap; sourceTree = "<group>"; };
 		DA04ABDA840689B72504ADC2EF6D28C7 /* Pods-SwiftUI Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI Example-Info.plist"; sourceTree = "<group>"; };
 		DA9D6B54EB35BA403010B12AB1B9AEED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DCE5FDD4048DFD6E050735ABF418C072 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DE3FF99A940FEB602C6091A786B20ACA /* Pods-SwiftUI Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftUI Example-frameworks.sh"; sourceTree = "<group>"; };
-		E920473D15333560E47C107C29BBBA35 /* ScreenShield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenShield.debug.xcconfig; sourceTree = "<group>"; };
 		F6BC9CAA5E83DC97A556E41F96A0E9C8 /* Pods-SwiftUI Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUI Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FFB745E36408B119F800B79CB6076D37 /* ScreenShield-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenShield-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,12 +124,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		163B8AFBB6499675903E79979C11F4FA /* ScreenShield */ = {
+		26DAD007340566C40633D59E2D0B3DD6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				642575AC8088ADA92D0DCB51360F7182 /* ScreenShield.swift */,
-				B01575FCCA2E6D963592A250A672715C /* Pod */,
-				73FDCE7E943342E66C4C2BD8DF00BDEF /* Support Files */,
+				2B57F12D2AAAF98E30B7438EDD76C418 /* LICENSE */,
+				2757E60BDFF466B4979DBFADA5D4DE1E /* README.md */,
+				8FC1735503DFD31FDF961B4B394E779D /* ScreenShield.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3775C8FAEB37D08E1E12EED0E82F8BCD /* ScreenShield */ = {
+			isa = PBXGroup;
+			children = (
+				52A54BEFEBDD7C8A364FFDA7B6E73436 /* ScreenShield.swift */,
+				26DAD007340566C40633D59E2D0B3DD6 /* Pod */,
+				8A203F6788A84F4D216FF7143138DCB4 /* Support Files */,
 			);
 			name = ScreenShield;
 			path = ../..;
@@ -138,7 +148,7 @@
 		3E45E2B5D41B40086A929179F8D6C927 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				163B8AFBB6499675903E79979C11F4FA /* ScreenShield */,
+				3775C8FAEB37D08E1E12EED0E82F8BCD /* ScreenShield */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -160,16 +170,16 @@
 			path = "Target Support Files/Pods-UIKit Example";
 			sourceTree = "<group>";
 		};
-		73FDCE7E943342E66C4C2BD8DF00BDEF /* Support Files */ = {
+		8A203F6788A84F4D216FF7143138DCB4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CC188EEA6A4CF508895791F22695353A /* ScreenShield.modulemap */,
-				A5B7D0BB0AD2F049B7D10A0C4D0AA6EC /* ScreenShield-dummy.m */,
-				7EDE1AE49339601E44D845F74E2E4442 /* ScreenShield-Info.plist */,
-				7592388FDF06FBE1E2FEB09AF4DED37E /* ScreenShield-prefix.pch */,
-				FFB745E36408B119F800B79CB6076D37 /* ScreenShield-umbrella.h */,
-				E920473D15333560E47C107C29BBBA35 /* ScreenShield.debug.xcconfig */,
-				1F366659A0B382B81EF1AB4AFF59C3EC /* ScreenShield.release.xcconfig */,
+				D99810BEFDB36F9B85F61E77DAB44788 /* ScreenShield.modulemap */,
+				00B38309DDCA6A62226B21E75835C742 /* ScreenShield-dummy.m */,
+				8E13288E3625343A69B1845AB92AA2D4 /* ScreenShield-Info.plist */,
+				BEA3F46AA1CFDE59ADDB9E09D1D668FF /* ScreenShield-prefix.pch */,
+				2FA001D3AA4275384B66E168CFA1B921 /* ScreenShield-umbrella.h */,
+				0D0ABF6369C0987ECDA77CE78BE4AD27 /* ScreenShield.debug.xcconfig */,
+				1EBAAC87C946563757472D4C5A92FA2B /* ScreenShield.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ScreenShield";
@@ -190,16 +200,6 @@
 			);
 			name = "Pods-SwiftUI Example";
 			path = "Target Support Files/Pods-SwiftUI Example";
-			sourceTree = "<group>";
-		};
-		B01575FCCA2E6D963592A250A672715C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4FEF173D68B4B200BD0792FACA398D02 /* LICENSE */,
-				DCE5FDD4048DFD6E050735ABF418C072 /* README.md */,
-				8B49628F31BE32BEFE9E18A9D283CDF5 /* ScreenShield.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -393,7 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D8577F8CA7333C51E078904E8B3C522 /* ScreenShield.swift in Sources */,
+				BCEE378D481F325224BACE65CD02F288 /* ScreenShield.swift in Sources */,
 				FAADC286DEAFC34E57581E5DCA1D6A63 /* ScreenShield-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,41 +492,6 @@
 			};
 			name = Release;
 		};
-		4010E4A8C7366A8FB2380FF2F9513AA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E920473D15333560E47C107C29BBBA35 /* ScreenShield.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ScreenShield/ScreenShield-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ScreenShield/ScreenShield-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ScreenShield/ScreenShield.modulemap";
-				PRODUCT_MODULE_NAME = ScreenShield;
-				PRODUCT_NAME = ScreenShield;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -592,42 +557,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		70B0D55DECBE2BFECA01E018751C7813 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F366659A0B382B81EF1AB4AFF59C3EC /* ScreenShield.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ScreenShield/ScreenShield-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ScreenShield/ScreenShield-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ScreenShield/ScreenShield.modulemap";
-				PRODUCT_MODULE_NAME = ScreenShield;
-				PRODUCT_NAME = ScreenShield;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -728,6 +657,77 @@
 			};
 			name = Debug;
 		};
+		97364A284B1FE12CEF7B8B50EEFC5BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EBAAC87C946563757472D4C5A92FA2B /* ScreenShield.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScreenShield/ScreenShield-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScreenShield/ScreenShield-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ScreenShield/ScreenShield.modulemap";
+				PRODUCT_MODULE_NAME = ScreenShield;
+				PRODUCT_NAME = ScreenShield;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB0183D028D949C5F48C074B728820B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0ABF6369C0987ECDA77CE78BE4AD27 /* ScreenShield.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScreenShield/ScreenShield-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScreenShield/ScreenShield-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ScreenShield/ScreenShield.modulemap";
+				PRODUCT_MODULE_NAME = ScreenShield;
+				PRODUCT_NAME = ScreenShield;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		DD0028E59968B3D5C1C303BEF5BCF692 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 20599648038BEB9FFAF9861A1C325690 /* Pods-UIKit Example.debug.xcconfig */;
@@ -780,8 +780,8 @@
 		59DD94054B27BC45FAFE5CAEE45083A6 /* Build configuration list for PBXNativeTarget "ScreenShield" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4010E4A8C7366A8FB2380FF2F9513AA0 /* Debug */,
-				70B0D55DECBE2BFECA01E018751C7813 /* Release */,
+				CB0183D028D949C5F48C074B728820B5 /* Debug */,
+				97364A284B1FE12CEF7B8B50EEFC5BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

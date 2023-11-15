@@ -16,9 +16,9 @@
     "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "13.0"
+    "ios": "14.0"
   },
-  "source_files": "ScreenShield/Classes/**/*.{h,m,swift}",
+  "source_files": "Source/*.swift",
   "swift_versions": "5.0",
   "frameworks": [
     "UIKit",
