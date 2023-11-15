@@ -68,7 +68,7 @@ struct ContentView: View {
         Text("Hello, World!")
             .protectScreenshot() // Protect the view
             .onAppear {
-                ScreenShield.shared.protectFromScreenRecording // Protect Screen-Recording
+                ScreenShield.shared.protectFromScreenRecording() // Protect Screen-Recording
             }
     }
 }
