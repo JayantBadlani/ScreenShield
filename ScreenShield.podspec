@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScreenShield'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'ScreenShield protects sensitive information on iOS screens'
   
   # This description is used to generate tags and improve search results.
@@ -29,9 +29,10 @@ Pod::Spec.new do |s|
   
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '14.0'
   
-  s.source_files = 'ScreenShield/Classes/**/*.{h,m,swift}'
+  s.source_files = 'Source/*.swift'
+ # s.source_files = 'Sources/ScreenShield/Classes/**/*.{h,m,swift}'
   s.swift_version = '5.0'
   
   # s.resource_bundles = {

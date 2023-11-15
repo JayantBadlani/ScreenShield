@@ -22,7 +22,7 @@ struct ContentView: View {
                 .aspectRatio(contentMode: .fit)
         }
         .padding()
-        .protectScreenshot()
+       // .protectScreenshot()
     }
 }
 
