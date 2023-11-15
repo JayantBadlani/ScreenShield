@@ -3,24 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		07B20758F26F18D4FD2D27DD50E408DD /* ScreenShield-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB745E36408B119F800B79CB6076D37 /* ScreenShield-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BFA0D9CDBD13E1B1DA1478C19FE365B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E43695CA18D2ECCB99629180AF405 /* Foundation.framework */; };
+		3A7EF262DDEE506B2F8332DFA5871643 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E43695CA18D2ECCB99629180AF405 /* Foundation.framework */; };
+		592378377CBAF9F05378DAD27827427A /* Pods-UIKit Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81030A01CDE79A2420A9AF6F13C34BEC /* Pods-UIKit Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D8577F8CA7333C51E078904E8B3C522 /* ScreenShield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642575AC8088ADA92D0DCB51360F7182 /* ScreenShield.swift */; };
-		665E2644CFF9291627DB75431AA31EE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E43695CA18D2ECCB99629180AF405 /* Foundation.framework */; };
 		6712216DF0A95244625AA27BD002A9D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9D6B54EB35BA403010B12AB1B9AEED /* UIKit.framework */; };
-		6AF31F80F55E91B988423C0DC06C8AB8 /* Pods-ScreenShield_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5EF9670CABCC25B8CFFDB98C97FBEEA /* Pods-ScreenShield_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EF1CB5F792F4492B94C3360824222F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E43695CA18D2ECCB99629180AF405 /* Foundation.framework */; };
-		84CE05CC0DB3F1D9DC4690A5EA8FE19C /* Pods-ScreenShield_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0573D5102F2989B3252DE42B6B22149 /* Pods-ScreenShield_Example-dummy.m */; };
-		8831D893BACB2DF63DE228F47C999D69 /* Pods-SwiftUI Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF926845EBBC0A8EC114CEAD5327B5 /* Pods-SwiftUI Example-dummy.m */; };
+		8831D893BACB2DF63DE228F47C999D69 /* Pods-SwiftUI Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520CA8E9091EB3203807E2347758080 /* Pods-SwiftUI Example-dummy.m */; };
 		9CEFE2DD2336930E996DF876564C7B44 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0E36001E64A26C7642A7F2A40EC757 /* SwiftUI.framework */; };
-		B6B8A1C178A2F76734B7AB75442EE733 /* Pods-ScreenShield_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E03D116BB0FDFEAEDBFE3CAE5DF6D1C3 /* Pods-ScreenShield_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6B516F71E70949C7C77F92F0DE41410 /* Pods-UIKit Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7065B84DDD81E7365AF20166C01C60C0 /* Pods-UIKit Example-dummy.m */; };
 		D87FC508D1346D2DD9B00D1E104AB074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E43695CA18D2ECCB99629180AF405 /* Foundation.framework */; };
-		E62EC901881F5CA34A4064B2D2CEA06E /* Pods-SwiftUI Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE88A6A47017A03D3D564BB57A92A0A0 /* Pods-SwiftUI Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E829FF6FEBF93E7F2A15C3841A88D5BE /* Pods-ScreenShield_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CF91581FD8E8E0D71FB530A3DBD822 /* Pods-ScreenShield_Tests-dummy.m */; };
+		E62EC901881F5CA34A4064B2D2CEA06E /* Pods-SwiftUI Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF0B501E87AF974585D39FBF7533FAD /* Pods-SwiftUI Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAADC286DEAFC34E57581E5DCA1D6A63 /* ScreenShield-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B7D0BB0AD2F049B7D10A0C4D0AA6EC /* ScreenShield-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +29,7 @@
 			remoteGlobalIDString = 3833A89E70204640AC9CA193152BD502;
 			remoteInfo = ScreenShield;
 		};
-		CBA2A0032CD1D61CC7698D45419D5805 /* PBXContainerItemProxy */ = {
+		F0C04DD1F714CEFA04F8E922F07C06E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -42,50 +39,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06C12EFA1676FB908FF0984790328D70 /* Pods-ScreenShield_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenShield_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0D893EBFCE7D82FA586FDE1EA5499F61 /* ScreenShield */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScreenShield; path = ScreenShield.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F5643390B3AA427CA3EFE728E5AABAF /* Pods-ScreenShield_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenShield_Tests.modulemap"; sourceTree = "<group>"; };
-		1258C3C0DB6F04446D49AC98CB7AA125 /* Pods-ScreenShield_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenShield_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1E6B16F0DA663A6A561F5760944E3B16 /* Pods-SwiftUI Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI Example-Info.plist"; sourceTree = "<group>"; };
+		156DA1B524BF2918AF4884138E01E03E /* Pods-UIKit Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKit Example-Info.plist"; sourceTree = "<group>"; };
+		1F33773135BF5EA960937863AE8E54AC /* Pods-SwiftUI Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1F366659A0B382B81EF1AB4AFF59C3EC /* ScreenShield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenShield.release.xcconfig; sourceTree = "<group>"; };
 		1F6E43695CA18D2ECCB99629180AF405 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2A8668E9E507D5871564A376918165D8 /* Pods-SwiftUI Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2DCABD8CC94854B935EB37114CFF7EE4 /* Pods-ScreenShield_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ScreenShield_Tests"; path = Pods_ScreenShield_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32BF88B5C08A3BD8C57D92921E38AB55 /* Pods-SwiftUI Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI Example.release.xcconfig"; sourceTree = "<group>"; };
-		33CF91581FD8E8E0D71FB530A3DBD822 /* Pods-ScreenShield_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenShield_Tests-dummy.m"; sourceTree = "<group>"; };
+		20599648038BEB9FFAF9861A1C325690 /* Pods-UIKit Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKit Example.debug.xcconfig"; sourceTree = "<group>"; };
+		205B47527F3DA2F02580FA5CD4D51554 /* Pods-UIKit Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIKit Example-frameworks.sh"; sourceTree = "<group>"; };
+		297FE659A2261F7C58501D8DDA7AEBA0 /* Pods-UIKit Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKit Example.release.xcconfig"; sourceTree = "<group>"; };
+		2DF0B501E87AF974585D39FBF7533FAD /* Pods-SwiftUI Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUI Example-umbrella.h"; sourceTree = "<group>"; };
+		35BC331AE857D46A8CA4C5518158315B /* Pods-UIKit Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKit Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E606675E456B10EDC31292EE4B677D6 /* Pods-UIKit Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIKit Example.modulemap"; sourceTree = "<group>"; };
 		4FEF173D68B4B200BD0792FACA398D02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		515707CFCDD7F74007A21888EB56318C /* Pods-ScreenShield_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenShield_Example-Info.plist"; sourceTree = "<group>"; };
-		52AF926845EBBC0A8EC114CEAD5327B5 /* Pods-SwiftUI Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUI Example-dummy.m"; sourceTree = "<group>"; };
-		56B808B829FFCEA810A3C3D4FF0A068C /* Pods-ScreenShield_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenShield_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		59BF3BABF0872FA7705349B70E34E12A /* Pods-SwiftUI Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftUI Example-frameworks.sh"; sourceTree = "<group>"; };
-		5BBEF99CD4056B98143985EC8C0B8247 /* Pods-ScreenShield_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenShield_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		63094F6846EC7B749855D3056934153A /* Pods-ScreenShield_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenShield_Tests-Info.plist"; sourceTree = "<group>"; };
 		642575AC8088ADA92D0DCB51360F7182 /* ScreenShield.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenShield.swift; path = ScreenShield/Classes/ScreenShield.swift; sourceTree = "<group>"; };
-		67F47134DC74EB8D2611893E1FB2D0D7 /* Pods-SwiftUI Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6FA846D12CCE6EEB327DBF811A05C5A7 /* Pods-ScreenShield_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenShield_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6FDA982C29907500CF2858A0C6E86026 /* Pods-ScreenShield_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenShield_Example.modulemap"; sourceTree = "<group>"; };
+		7065B84DDD81E7365AF20166C01C60C0 /* Pods-UIKit Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIKit Example-dummy.m"; sourceTree = "<group>"; };
+		70BED8219D3E1A2297AF0ABAFAB79616 /* Pods-SwiftUI Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI Example.release.xcconfig"; sourceTree = "<group>"; };
+		7520CA8E9091EB3203807E2347758080 /* Pods-SwiftUI Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUI Example-dummy.m"; sourceTree = "<group>"; };
 		7592388FDF06FBE1E2FEB09AF4DED37E /* ScreenShield-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenShield-prefix.pch"; sourceTree = "<group>"; };
 		7EDE1AE49339601E44D845F74E2E4442 /* ScreenShield-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScreenShield-Info.plist"; sourceTree = "<group>"; };
+		81030A01CDE79A2420A9AF6F13C34BEC /* Pods-UIKit Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIKit Example-umbrella.h"; sourceTree = "<group>"; };
 		8B49628F31BE32BEFE9E18A9D283CDF5 /* ScreenShield.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ScreenShield.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A45699997F41BB27E1E5D5B5D825587 /* Pods-SwiftUI Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUI Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3FC674210C86DFD463313DF8D267B3D /* Pods-ScreenShield_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenShield_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A5B7D0BB0AD2F049B7D10A0C4D0AA6EC /* ScreenShield-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScreenShield-dummy.m"; sourceTree = "<group>"; };
-		A5EF9670CABCC25B8CFFDB98C97FBEEA /* Pods-ScreenShield_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenShield_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AAAF0418EAADB707A60FE817AEB35271 /* Pods-SwiftUI Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftUI Example"; path = Pods_SwiftUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE827F40F2F52A77AE7A9BF033EF21CF /* Pods-ScreenShield_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenShield_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B05550DF4D6703F31E69E7DE4B2FB47D /* Pods-ScreenShield_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ScreenShield_Example"; path = Pods_ScreenShield_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6F9D6F7F70C39BDD166CE606E4DF65F /* Pods-SwiftUI Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUI Example.modulemap"; sourceTree = "<group>"; };
-		C79A57FADC169E531CF7F83C3A04D366 /* Pods-ScreenShield_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenShield_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B00E573E7227428DF8B4636B6CE8A1B7 /* Pods-UIKit Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIKit Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C57727EAFEA888BAF8E76BB85554B7B0 /* Pods-UIKit Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIKit Example"; path = Pods_UIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B88941198EF55A44404BBED12BFB27 /* Pods-SwiftUI Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CC0E36001E64A26C7642A7F2A40EC757 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
 		CC188EEA6A4CF508895791F22695353A /* ScreenShield.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScreenShield.modulemap; sourceTree = "<group>"; };
+		DA04ABDA840689B72504ADC2EF6D28C7 /* Pods-SwiftUI Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI Example-Info.plist"; sourceTree = "<group>"; };
 		DA9D6B54EB35BA403010B12AB1B9AEED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DCE5FDD4048DFD6E050735ABF418C072 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E03D116BB0FDFEAEDBFE3CAE5DF6D1C3 /* Pods-ScreenShield_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenShield_Example-umbrella.h"; sourceTree = "<group>"; };
-		E0573D5102F2989B3252DE42B6B22149 /* Pods-ScreenShield_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenShield_Example-dummy.m"; sourceTree = "<group>"; };
-		E6DFCD82CA6D2643B712F67CB6675480 /* Pods-SwiftUI Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUI Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE3FF99A940FEB602C6091A786B20ACA /* Pods-SwiftUI Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftUI Example-frameworks.sh"; sourceTree = "<group>"; };
 		E920473D15333560E47C107C29BBBA35 /* ScreenShield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenShield.debug.xcconfig; sourceTree = "<group>"; };
-		F97E432A273CCCA7797462667D9FE964 /* Pods-ScreenShield_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenShield_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FE88A6A47017A03D3D564BB57A92A0A0 /* Pods-SwiftUI Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUI Example-umbrella.h"; sourceTree = "<group>"; };
+		F6BC9CAA5E83DC97A556E41F96A0E9C8 /* Pods-SwiftUI Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUI Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FFB745E36408B119F800B79CB6076D37 /* ScreenShield-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenShield-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,22 +86,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4F5FF2216BD12EA527966A65CAFAB28 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BFA0D9CDBD13E1B1DA1478C19FE365B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5B982F3B0AFEF8CD4C0C91A650389F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				665E2644CFF9291627DB75431AA31EE4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D435283CF0F13CE7F30566C4CFCE0A05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -121,6 +93,14 @@
 				D87FC508D1346D2DD9B00D1E104AB074 /* Foundation.framework in Frameworks */,
 				9CEFE2DD2336930E996DF876564C7B44 /* SwiftUI.framework in Frameworks */,
 				6712216DF0A95244625AA27BD002A9D1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E90B5F514CE5FEE0B7EBDD0BE207F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7EF262DDEE506B2F8332DFA5871643 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +115,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		10A2F35B8A42E1EE8970F9BC10196B91 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD8FB03ECE1127006C5ACE0B52A405B0 /* Pods-SwiftUI Example */,
+				526164719158ED9BBAB618BB177D97C9 /* Pods-UIKit Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		163B8AFBB6499675903E79979C11F4FA /* ScreenShield */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,17 +135,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		2226138779E4CD54533EE5EE74822855 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B05550DF4D6703F31E69E7DE4B2FB47D /* Pods-ScreenShield_Example */,
-				2DCABD8CC94854B935EB37114CFF7EE4 /* Pods-ScreenShield_Tests */,
-				AAAF0418EAADB707A60FE817AEB35271 /* Pods-SwiftUI Example */,
-				0D893EBFCE7D82FA586FDE1EA5499F61 /* ScreenShield */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		3E45E2B5D41B40086A929179F8D6C927 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,37 +143,21 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		412DA782F1BA3A5756CBB017ACF6C1E3 /* Pods-ScreenShield_Tests */ = {
+		526164719158ED9BBAB618BB177D97C9 /* Pods-UIKit Example */ = {
 			isa = PBXGroup;
 			children = (
-				0F5643390B3AA427CA3EFE728E5AABAF /* Pods-ScreenShield_Tests.modulemap */,
-				6FA846D12CCE6EEB327DBF811A05C5A7 /* Pods-ScreenShield_Tests-acknowledgements.markdown */,
-				5BBEF99CD4056B98143985EC8C0B8247 /* Pods-ScreenShield_Tests-acknowledgements.plist */,
-				33CF91581FD8E8E0D71FB530A3DBD822 /* Pods-ScreenShield_Tests-dummy.m */,
-				63094F6846EC7B749855D3056934153A /* Pods-ScreenShield_Tests-Info.plist */,
-				A5EF9670CABCC25B8CFFDB98C97FBEEA /* Pods-ScreenShield_Tests-umbrella.h */,
-				F97E432A273CCCA7797462667D9FE964 /* Pods-ScreenShield_Tests.debug.xcconfig */,
-				06C12EFA1676FB908FF0984790328D70 /* Pods-ScreenShield_Tests.release.xcconfig */,
+				3E606675E456B10EDC31292EE4B677D6 /* Pods-UIKit Example.modulemap */,
+				B00E573E7227428DF8B4636B6CE8A1B7 /* Pods-UIKit Example-acknowledgements.markdown */,
+				35BC331AE857D46A8CA4C5518158315B /* Pods-UIKit Example-acknowledgements.plist */,
+				7065B84DDD81E7365AF20166C01C60C0 /* Pods-UIKit Example-dummy.m */,
+				205B47527F3DA2F02580FA5CD4D51554 /* Pods-UIKit Example-frameworks.sh */,
+				156DA1B524BF2918AF4884138E01E03E /* Pods-UIKit Example-Info.plist */,
+				81030A01CDE79A2420A9AF6F13C34BEC /* Pods-UIKit Example-umbrella.h */,
+				20599648038BEB9FFAF9861A1C325690 /* Pods-UIKit Example.debug.xcconfig */,
+				297FE659A2261F7C58501D8DDA7AEBA0 /* Pods-UIKit Example.release.xcconfig */,
 			);
-			name = "Pods-ScreenShield_Tests";
-			path = "Target Support Files/Pods-ScreenShield_Tests";
-			sourceTree = "<group>";
-		};
-		6D18E2CF3776ABA1E9006FBAA3402D4D /* Pods-SwiftUI Example */ = {
-			isa = PBXGroup;
-			children = (
-				B6F9D6F7F70C39BDD166CE606E4DF65F /* Pods-SwiftUI Example.modulemap */,
-				E6DFCD82CA6D2643B712F67CB6675480 /* Pods-SwiftUI Example-acknowledgements.markdown */,
-				67F47134DC74EB8D2611893E1FB2D0D7 /* Pods-SwiftUI Example-acknowledgements.plist */,
-				52AF926845EBBC0A8EC114CEAD5327B5 /* Pods-SwiftUI Example-dummy.m */,
-				59BF3BABF0872FA7705349B70E34E12A /* Pods-SwiftUI Example-frameworks.sh */,
-				1E6B16F0DA663A6A561F5760944E3B16 /* Pods-SwiftUI Example-Info.plist */,
-				FE88A6A47017A03D3D564BB57A92A0A0 /* Pods-SwiftUI Example-umbrella.h */,
-				2A8668E9E507D5871564A376918165D8 /* Pods-SwiftUI Example.debug.xcconfig */,
-				32BF88B5C08A3BD8C57D92921E38AB55 /* Pods-SwiftUI Example.release.xcconfig */,
-			);
-			name = "Pods-SwiftUI Example";
-			path = "Target Support Files/Pods-SwiftUI Example";
+			name = "Pods-UIKit Example";
+			path = "Target Support Files/Pods-UIKit Example";
 			sourceTree = "<group>";
 		};
 		73FDCE7E943342E66C4C2BD8DF00BDEF /* Support Files */ = {
@@ -211,6 +173,23 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ScreenShield";
+			sourceTree = "<group>";
+		};
+		AD8FB03ECE1127006C5ACE0B52A405B0 /* Pods-SwiftUI Example */ = {
+			isa = PBXGroup;
+			children = (
+				9A45699997F41BB27E1E5D5B5D825587 /* Pods-SwiftUI Example.modulemap */,
+				F6BC9CAA5E83DC97A556E41F96A0E9C8 /* Pods-SwiftUI Example-acknowledgements.markdown */,
+				C9B88941198EF55A44404BBED12BFB27 /* Pods-SwiftUI Example-acknowledgements.plist */,
+				7520CA8E9091EB3203807E2347758080 /* Pods-SwiftUI Example-dummy.m */,
+				DE3FF99A940FEB602C6091A786B20ACA /* Pods-SwiftUI Example-frameworks.sh */,
+				DA04ABDA840689B72504ADC2EF6D28C7 /* Pods-SwiftUI Example-Info.plist */,
+				2DF0B501E87AF974585D39FBF7533FAD /* Pods-SwiftUI Example-umbrella.h */,
+				1F33773135BF5EA960937863AE8E54AC /* Pods-SwiftUI Example.debug.xcconfig */,
+				70BED8219D3E1A2297AF0ABAFAB79616 /* Pods-SwiftUI Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftUI Example";
+			path = "Target Support Files/Pods-SwiftUI Example";
 			sourceTree = "<group>";
 		};
 		B01575FCCA2E6D963592A250A672715C /* Pod */ = {
@@ -229,36 +208,9 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				3E45E2B5D41B40086A929179F8D6C927 /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				2226138779E4CD54533EE5EE74822855 /* Products */,
-				EDB2B8BEE6268A05ED1A369F896CFDA3 /* Targets Support Files */,
+				F99BDEEDA1C5C1F8F6FA045F1B415032 /* Products */,
+				10A2F35B8A42E1EE8970F9BC10196B91 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		E2A1D06567F8447DAC2D1878AF777893 /* Pods-ScreenShield_Example */ = {
-			isa = PBXGroup;
-			children = (
-				6FDA982C29907500CF2858A0C6E86026 /* Pods-ScreenShield_Example.modulemap */,
-				A3FC674210C86DFD463313DF8D267B3D /* Pods-ScreenShield_Example-acknowledgements.markdown */,
-				1258C3C0DB6F04446D49AC98CB7AA125 /* Pods-ScreenShield_Example-acknowledgements.plist */,
-				E0573D5102F2989B3252DE42B6B22149 /* Pods-ScreenShield_Example-dummy.m */,
-				AE827F40F2F52A77AE7A9BF033EF21CF /* Pods-ScreenShield_Example-frameworks.sh */,
-				515707CFCDD7F74007A21888EB56318C /* Pods-ScreenShield_Example-Info.plist */,
-				E03D116BB0FDFEAEDBFE3CAE5DF6D1C3 /* Pods-ScreenShield_Example-umbrella.h */,
-				56B808B829FFCEA810A3C3D4FF0A068C /* Pods-ScreenShield_Example.debug.xcconfig */,
-				C79A57FADC169E531CF7F83C3A04D366 /* Pods-ScreenShield_Example.release.xcconfig */,
-			);
-			name = "Pods-ScreenShield_Example";
-			path = "Target Support Files/Pods-ScreenShield_Example";
-			sourceTree = "<group>";
-		};
-		EDB2B8BEE6268A05ED1A369F896CFDA3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E2A1D06567F8447DAC2D1878AF777893 /* Pods-ScreenShield_Example */,
-				412DA782F1BA3A5756CBB017ACF6C1E3 /* Pods-ScreenShield_Tests */,
-				6D18E2CF3776ABA1E9006FBAA3402D4D /* Pods-SwiftUI Example */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		F5526776CFB064E883CCCEF07083471F /* iOS */ = {
@@ -271,30 +223,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		F99BDEEDA1C5C1F8F6FA045F1B415032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAAF0418EAADB707A60FE817AEB35271 /* Pods-SwiftUI Example */,
+				C57727EAFEA888BAF8E76BB85554B7B0 /* Pods-UIKit Example */,
+				0D893EBFCE7D82FA586FDE1EA5499F61 /* ScreenShield */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		338A1112514524923A1736E45FCAD853 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6B8A1C178A2F76734B7AB75442EE733 /* Pods-ScreenShield_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A4280588615598CD120C6AF0E963180 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AF31F80F55E91B988423C0DC06C8AB8 /* Pods-ScreenShield_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A7B24AD6E365EDC31F19D15C5ADA9F93 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				07B20758F26F18D4FD2D27DD50E408DD /* ScreenShield-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A5BC2751E7631DC10DAE3D8ED9CC41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592378377CBAF9F05378DAD27827427A /* Pods-UIKit Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,25 +281,6 @@
 			productReference = 0D893EBFCE7D82FA586FDE1EA5499F61 /* ScreenShield */;
 			productType = "com.apple.product-type.framework";
 		};
-		4D31097EFF3B8A625041286A65480973 /* Pods-ScreenShield_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71BD9B0A1522AEA3A90937077C8A258A /* Build configuration list for PBXNativeTarget "Pods-ScreenShield_Example" */;
-			buildPhases = (
-				338A1112514524923A1736E45FCAD853 /* Headers */,
-				F50228883D4196555C8AE967BD745E8F /* Sources */,
-				B4F5FF2216BD12EA527966A65CAFAB28 /* Frameworks */,
-				2D74DCE3DCAF938CCA5395BB9F037406 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5B142BF77211CDFF3DA84FDEF4C66611 /* PBXTargetDependency */,
-			);
-			name = "Pods-ScreenShield_Example";
-			productName = Pods_ScreenShield_Example;
-			productReference = B05550DF4D6703F31E69E7DE4B2FB47D /* Pods-ScreenShield_Example */;
-			productType = "com.apple.product-type.framework";
-		};
 		A33D23757930B69C85473FF3DF677946 /* Pods-SwiftUI Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F66CD3E49015F2AEF216B65136E9D075 /* Build configuration list for PBXNativeTarget "Pods-SwiftUI Example" */;
@@ -365,22 +300,23 @@
 			productReference = AAAF0418EAADB707A60FE817AEB35271 /* Pods-SwiftUI Example */;
 			productType = "com.apple.product-type.framework";
 		};
-		B28AD88326AF56915F72C96EC7ED4BD4 /* Pods-ScreenShield_Tests */ = {
+		A92897C09218AB1D961B5E8080F4A72F /* Pods-UIKit Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E39B4FCAC8C3775AF2A301C602C0678C /* Build configuration list for PBXNativeTarget "Pods-ScreenShield_Tests" */;
+			buildConfigurationList = 85FDE1805B017A7B8349F810A93BD4DF /* Build configuration list for PBXNativeTarget "Pods-UIKit Example" */;
 			buildPhases = (
-				9A4280588615598CD120C6AF0E963180 /* Headers */,
-				02648CB1FAEF9E7AB47D496AA25E4EB6 /* Sources */,
-				C5B982F3B0AFEF8CD4C0C91A650389F0 /* Frameworks */,
-				26CBF0EFCEED5D906CDE1E5B5F19F521 /* Resources */,
+				D2A5BC2751E7631DC10DAE3D8ED9CC41 /* Headers */,
+				3C15FE3B80AA6C2F452AE7ED4FA79F35 /* Sources */,
+				F6E90B5F514CE5FEE0B7EBDD0BE207F6 /* Frameworks */,
+				F804A3FD76AD864EBF335BD207A3156A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DB700316F366EB4D5425B5D89DDB65BA /* PBXTargetDependency */,
 			);
-			name = "Pods-ScreenShield_Tests";
-			productName = Pods_ScreenShield_Tests;
-			productReference = 2DCABD8CC94854B935EB37114CFF7EE4 /* Pods-ScreenShield_Tests */;
+			name = "Pods-UIKit Example";
+			productName = Pods_UIKit_Example;
+			productReference = C57727EAFEA888BAF8E76BB85554B7B0 /* Pods-UIKit Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -389,11 +325,11 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 12.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -401,33 +337,18 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2226138779E4CD54533EE5EE74822855 /* Products */;
+			productRefGroup = F99BDEEDA1C5C1F8F6FA045F1B415032 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D31097EFF3B8A625041286A65480973 /* Pods-ScreenShield_Example */,
-				B28AD88326AF56915F72C96EC7ED4BD4 /* Pods-ScreenShield_Tests */,
 				A33D23757930B69C85473FF3DF677946 /* Pods-SwiftUI Example */,
+				A92897C09218AB1D961B5E8080F4A72F /* Pods-UIKit Example */,
 				3833A89E70204640AC9CA193152BD502 /* ScreenShield */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		26CBF0EFCEED5D906CDE1E5B5F19F521 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D74DCE3DCAF938CCA5395BB9F037406 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3B4B560E7B266B8823CA3DC8C51C71D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,14 +363,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F804A3FD76AD864EBF335BD207A3156A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		02648CB1FAEF9E7AB47D496AA25E4EB6 /* Sources */ = {
+		3C15FE3B80AA6C2F452AE7ED4FA79F35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E829FF6FEBF93E7F2A15C3841A88D5BE /* Pods-ScreenShield_Tests-dummy.m in Sources */,
+				A6B516F71E70949C7C77F92F0DE41410 /* Pods-UIKit Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,14 +398,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F50228883D4196555C8AE967BD745E8F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84CE05CC0DB3F1D9DC4690A5EA8FE19C /* Pods-ScreenShield_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -487,18 +407,56 @@
 			target = 3833A89E70204640AC9CA193152BD502 /* ScreenShield */;
 			targetProxy = 1ECC4AF4103B9BC4FDFD1CC41405B9BE /* PBXContainerItemProxy */;
 		};
-		5B142BF77211CDFF3DA84FDEF4C66611 /* PBXTargetDependency */ = {
+		DB700316F366EB4D5425B5D89DDB65BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ScreenShield;
 			target = 3833A89E70204640AC9CA193152BD502 /* ScreenShield */;
-			targetProxy = CBA2A0032CD1D61CC7698D45419D5805 /* PBXContainerItemProxy */;
+			targetProxy = F0C04DD1F714CEFA04F8E922F07C06E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		20788F6C248C7A21B83480F287AD4D7E /* Release */ = {
+		0144F3859DDF1BFAC669D770F9299972 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32BF88B5C08A3BD8C57D92921E38AB55 /* Pods-SwiftUI Example.release.xcconfig */;
+			baseConfigurationReference = 297FE659A2261F7C58501D8DDA7AEBA0 /* Pods-UIKit Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIKit Example/Pods-UIKit Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIKit Example/Pods-UIKit Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E746A6549CCD5759EA4340065D1FC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BED8219D3E1A2297AF0ABAFAB79616 /* Pods-SwiftUI Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -512,7 +470,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUI Example/Pods-SwiftUI Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -533,43 +491,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		3491814A172127E5853952E87FABA7AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A8668E9E507D5871564A376918165D8 /* Pods-SwiftUI Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUI Example/Pods-SwiftUI Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUI Example/Pods-SwiftUI Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		4010E4A8C7366A8FB2380FF2F9513AA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -606,156 +527,7 @@
 			};
 			name = Debug;
 		};
-		559F9FCBC33584FD7544EB456310BD28 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06C12EFA1676FB908FF0984790328D70 /* Pods-ScreenShield_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ScreenShield_Tests/Pods-ScreenShield_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ScreenShield_Tests/Pods-ScreenShield_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		59C31C828EB56CF9A27AE86A8D7F5F6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C79A57FADC169E531CF7F83C3A04D366 /* Pods-ScreenShield_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ScreenShield_Example/Pods-ScreenShield_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ScreenShield_Example/Pods-ScreenShield_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		70B0D55DECBE2BFECA01E018751C7813 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F366659A0B382B81EF1AB4AFF59C3EC /* ScreenShield.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ScreenShield/ScreenShield-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ScreenShield/ScreenShield-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ScreenShield/ScreenShield.modulemap";
-				PRODUCT_MODULE_NAME = ScreenShield;
-				PRODUCT_NAME = ScreenShield;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7F4F22E547A2A84D29D80658533F6E93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56B808B829FFCEA810A3C3D4FF0A068C /* Pods-ScreenShield_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ScreenShield_Example/Pods-ScreenShield_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ScreenShield_Example/Pods-ScreenShield_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -808,7 +580,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -821,7 +593,43 @@
 			};
 			name = Debug;
 		};
-		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+		70B0D55DECBE2BFECA01E018751C7813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F366659A0B382B81EF1AB4AFF59C3EC /* ScreenShield.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScreenShield/ScreenShield-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScreenShield/ScreenShield-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ScreenShield/ScreenShield.modulemap";
+				PRODUCT_MODULE_NAME = ScreenShield;
+				PRODUCT_NAME = ScreenShield;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -871,7 +679,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -883,9 +691,9 @@
 			};
 			name = Release;
 		};
-		E57DEABFF917F04A49695BF861BDECC0 /* Debug */ = {
+		970E3ADEE36A206744F2148355377C95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F97E432A273CCCA7797462667D9FE964 /* Pods-ScreenShield_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1F33773135BF5EA960937863AE8E54AC /* Pods-SwiftUI Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -897,16 +705,53 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ScreenShield_Tests/Pods-ScreenShield_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUI Example/Pods-SwiftUI Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ScreenShield_Tests/Pods-ScreenShield_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUI Example/Pods-SwiftUI Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD0028E59968B3D5C1C303BEF5BCF692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20599648038BEB9FFAF9861A1C325690 /* Pods-UIKit Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIKit Example/Pods-UIKit Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIKit Example/Pods-UIKit Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -926,8 +771,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
-				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -941,20 +786,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71BD9B0A1522AEA3A90937077C8A258A /* Build configuration list for PBXNativeTarget "Pods-ScreenShield_Example" */ = {
+		85FDE1805B017A7B8349F810A93BD4DF /* Build configuration list for PBXNativeTarget "Pods-UIKit Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F4F22E547A2A84D29D80658533F6E93 /* Debug */,
-				59C31C828EB56CF9A27AE86A8D7F5F6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E39B4FCAC8C3775AF2A301C602C0678C /* Build configuration list for PBXNativeTarget "Pods-ScreenShield_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E57DEABFF917F04A49695BF861BDECC0 /* Debug */,
-				559F9FCBC33584FD7544EB456310BD28 /* Release */,
+				DD0028E59968B3D5C1C303BEF5BCF692 /* Debug */,
+				0144F3859DDF1BFAC669D770F9299972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -962,8 +798,8 @@
 		F66CD3E49015F2AEF216B65136E9D075 /* Build configuration list for PBXNativeTarget "Pods-SwiftUI Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3491814A172127E5853952E87FABA7AA /* Debug */,
-				20788F6C248C7A21B83480F287AD4D7E /* Release */,
+				970E3ADEE36A206744F2148355377C95 /* Debug */,
+				1E746A6549CCD5759EA4340065D1FC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ScreenShield_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ScreenShield_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_UIKit_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_UIKit_ExampleVersionString[];
 
