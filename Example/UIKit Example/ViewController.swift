@@ -14,12 +14,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        ScreenShield.shared.protect(view: self.view)
-        ScreenShield.shared.protectFromScreenRecording()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        ScreenShield.shared.protect(view: self.view)
+        ScreenShield.shared.protectFromScreenRecording()
     }
 
     override func didReceiveMemoryWarning() {
