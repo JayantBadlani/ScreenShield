@@ -76,7 +76,15 @@ struct ContentView: View {
 
 That's it! With just a few lines of code, you can protect your app's content and prevent it from being recorded or captured by unwanted screen capture mechanisms.
 
-#### Note: Preventing screen capture in an iOS app can be challenging because it's not directly supported by the iOS operating system. In this library, we have customized our code and applied hacks / workarounds to achieve the desired result. The problem of a messed-up UI is known to occur at times. To resolve the layout issue, think about adding "ScreenShield" protection to your view after the UI finishes loading. Implementing "ScreenShield" protection in the viewDidAppear method can be effective in mitigating layout problems. It's important to note that this library is currently under development and hasn't undergone full testing. Contributions are greatly appreciated.
+## Note: 
+Preventing screen capture in an iOS app presents challenges due to the lack of direct support from the iOS operating system. In our library, we've customized our code with various hacks and workarounds to achieve the desired result. Users may encounter occasional issues with a disrupted UI. To address this, consider the following approaches for different frameworks:
+
+For UIKit:
+To prevent the layout issue by incorporating "ScreenShield" protection to your view after the UI finishes loading. Implementing this protection in the viewDidAppear method can effectively mitigate layout problems.
+
+For SwiftUI:
+Apply the "ScreenShield" protection by using the corresponding modifier. Simply add the "ScreenShield" modifier to the outermost view in the hierarchy on the screen, ensuring a secure and protected user interface experience. 
+## Please note that the library is currently under development, and contributions are greatly appreciated.
 
 
 License
