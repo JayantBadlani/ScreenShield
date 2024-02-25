@@ -83,7 +83,7 @@ For UIKit:
 To prevent the layout issue by incorporating "ScreenShield" protection to your view after the UI finishes loading. Implementing this protection in the viewDidAppear method can effectively mitigate layout problems.
 
 For SwiftUI:
-Apply the "ScreenShield" protection by using the corresponding modifier. Simply add the "ScreenShield" modifier to the outermost view in the hierarchy on the screen, ensuring a secure and protected user interface experience. 
+To prevent the layout issue, add the "ScreenShield" modifier to the outermost view in the hierarchy on the screen, ensuring a secure and protected user interface experience. 
 ## Please note that the library is currently under development, and contributions are greatly appreciated.
 
 
