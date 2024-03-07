@@ -40,6 +40,7 @@ To use ScreenShield in your iOS app, simply import the library and call its meth
 ```ruby
 import UIKit
 import ScreenShield
+import React
 
 class ViewController: UIViewController {
     
