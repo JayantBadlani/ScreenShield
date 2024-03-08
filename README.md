@@ -40,6 +40,7 @@ To use ScreenShield in your iOS app, simply import the library and call its meth
 ```ruby
 import UIKit
 import ScreenShield
+import React
 
 class ViewController: UIViewController {
     
@@ -72,6 +73,79 @@ struct ContentView: View {
             }
     }
 }
+```
+
+
+# Integrating ScreenShield SDK with React Native
+
+This guide explains how to integrate the ScreenShield SDK into your React Native project to protect your app from screen recording.
+
+## Installation
+
+1. Install the ScreenShield SDK through CocoaPods. Follow the installation instructions provided in the ScreenShield documentation.
+
+### Add this pod sdk in your podfile
+
+```ruby
+    pod 'ScreenShield'
+```
+
+## Usage
+
+### 1. Add Swift File
+
+Create a Swift file named `ScreenShieldRN.swift` under your iOS root directory with the following content:
+
+```swift
+import Foundation
+import ScreenShield
+
+@objc(ScreenShieldRN)
+class ScreenShieldRN: NSObject {
+
+    @objc func protectScreenRecording() {
+        ScreenShield.shared.protectFromScreenRecording()
+    }
+
+    @objc static func requiresMainQueueSetup() -> Bool {
+        return true
+    }
+}
+```
+### 2. Add Objective-C File
+Create an Objective-C file named ScreenShieldRN.m and add the following code:
+
+```objc
+#import <Foundation/Foundation.h>
+#import <React/RCTBridgeModule.h>
+#import "React/RCTLog.h"
+
+@interface RCT_EXTERN_MODULE(ScreenShieldRN, NSObject)
+
+RCT_EXTERN_METHOD(protectScreenRecording)
+
+@end
+```
+
+### 3. Create a Bridge File
+Create a bridge file named ScreenShieldRNBridge.h with the following code:
+
+```objc
+
+#import <React/RCTBridgeModule.h>
+#import <React/RCTViewManager.h>
+```
+
+### Usage in React Native
+Now, you can use the ScreenShield functionality in your React Native code. For example:
+
+```javascript
+import { NativeModules } from 'react-native';
+
+const { ScreenShieldRN } = NativeModules;
+
+ScreenShieldRN.protectScreenRecording(); // Call the protectScreenRecording method to protect from screen recording
+
 ```
 
 That's it! With just a few lines of code, you can protect your app's content and prevent it from being recorded or captured by unwanted screen capture mechanisms.
