@@ -1,6 +1,6 @@
 {
   "name": "ScreenShield",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "summary": "ScreenShield protects sensitive information on iOS screens",
   "description": "ScreenShield is a library that helps protect sensitive information on iOS screens by obscuring the content when the user navigates away from the app or the screen is locked. It offers various customizable options and can be easily integrated into your app.",
   "homepage": "https://github.com/JayantBadlani/ScreenShield",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/JayantBadlani/ScreenShield.git",
-    "tag": "1.0.0"
+    "tag": "1.2.1"
   },
   "platforms": {
     "ios": "14.0"
