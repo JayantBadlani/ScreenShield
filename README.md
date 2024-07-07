@@ -94,6 +94,9 @@ This guide explains how to integrate the ScreenShield SDK into your React Native
 
 ## Usage
 
+#### Note: Add files using Xcode IDE
+![AddFilesXcode](https://github.com/JayantBadlani/ScreenShield/assets/37996543/b2785cda-dfe5-4c7e-a7a1-3155e18fa0a5)
+
 ### 1. Add Swift File
 
 Create a Swift file named `ScreenShieldRN.swift` under your iOS root directory with the following content:
