@@ -46,7 +46,6 @@ To use ScreenShield in your iOS app, simply import the library and call its meth
 ```ruby
 import UIKit
 import ScreenShield
-import React
 
 class ViewController: UIViewController {
     
@@ -104,11 +103,12 @@ That is, you must make sure those files compiled and linked to your React Native
 
 ### 1. Add Swift File
 
-Create a Swift **with XCode** file named `ScreenShieldRN.swift` under your iOS root directory with the following content:
+Create/Add a Swift file **with XCode** named `ScreenShieldRN.swift` under your iOS root directory with the following content:
 
 ![CreateSwiftFile-1](https://github.com/JayantBadlani/ScreenShield/assets/104543757/68a48fb4-b726-4ece-960f-c4906adc73aa)
 
-![CreateSwiftFile-2](https://github.com/JayantBadlani/ScreenShield/assets/104543757/457e2451-9f8f-4479-b283-175da396b7ce)
+![CreateSwiftFile-2](https://github.com/JayantBadlani/ScreenShield/assets/37996543/2943bacc-e9a9-4d4d-a346-0a6e30e041e8)
+
 
 ```swift
 import Foundation
