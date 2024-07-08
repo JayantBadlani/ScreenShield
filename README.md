@@ -29,12 +29,16 @@ Then, run pod install to install the library and its dependencies.
 ## Swift Package Manager
 To install ScreenShield using Swift Package Manager, add the following line to your Package.swift:
 
+```swift
 dependencies: [
     .package(url: "https://github.com/JayantBadlani/ScreenShield", from: "1.2.1")
 ]
+```
+
 Then, run swift package update to download the library and its dependencies.
 
 ## Usage
+
 To use ScreenShield in your iOS app, simply import the library and call its methods to protect your views and listen for screen recordings.
 
 ### Here's an example of how to use the library with UIKit:
@@ -94,12 +98,17 @@ This guide explains how to integrate the ScreenShield SDK into your React Native
 
 ## Usage
 
-#### Note: Add files using Xcode IDE
-![AddFilesXcode](https://github.com/JayantBadlani/ScreenShield/assets/37996543/b2785cda-dfe5-4c7e-a7a1-3155e18fa0a5)
+**Note** On all steps below, it's recommended to create files using Xcode IDE, but if you have created files from the terminal or Visual Studio Code, you need to [add them to your Xcode project](#ensure-files-embedded-on-xcode).
+
+That is, you must make sure those files compiled and linked to your React Native project.
 
 ### 1. Add Swift File
 
-Create a Swift file named `ScreenShieldRN.swift` under your iOS root directory with the following content:
+Create a Swift **with XCode** file named `ScreenShieldRN.swift` under your iOS root directory with the following content:
+
+![CreateSwiftFile-1](https://github.com/JayantBadlani/ScreenShield/assets/104543757/68a48fb4-b726-4ece-960f-c4906adc73aa)
+
+![CreateSwiftFile-2](https://github.com/JayantBadlani/ScreenShield/assets/104543757/457e2451-9f8f-4479-b283-175da396b7ce)
 
 ```swift
 import Foundation
@@ -117,6 +126,7 @@ class ScreenShieldRN: NSObject {
     }
 }
 ```
+
 ### 2. Add Objective-C File
 Create an Objective-C file named ScreenShieldRN.m and add the following code:
 
@@ -163,10 +173,23 @@ To prevent the layout issue by incorporating "ScreenShield" protection to your v
 
 For SwiftUI:
 To prevent the layout issue, add the "ScreenShield" modifier to the outermost view in the hierarchy on the screen, ensuring a secure and protected user interface experience. 
-## Please note that the library is currently under development, and contributions are greatly appreciated.
+
+**⚠️ Warning** Please note that the library is currently under development, and contributions are greatly appreciated.
 
 
-License
+## Ensure files embedded on Xcode
+
+1. Right-click on your project in the Xcode project navigator and select "Add Files to [Your Project Name]":
+
+![AddFilesXcode](https://github.com/JayantBadlani/ScreenShield/assets/37996543/b2785cda-dfe5-4c7e-a7a1-3155e18fa0a5)
+
+2. Select the files you created in the previous steps and click "Add":
+
+![image](https://github.com/JayantBadlani/ScreenShield/assets/104543757/281c9a9f-9641-4e57-81c9-5cc85f6e3f9d)
+
+
+## License
+
 ScreenShield is available under the MIT license. See the LICENSE file for more information.
 
 # Kindly give a Star ⭐ to my repo to support my work. Thank you!
