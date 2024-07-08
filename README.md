@@ -27,7 +27,6 @@ pod 'ScreenShield'
 Then, run pod install to install the library and its dependencies.
 
 ## Swift Package Manager
-
 To install ScreenShield using Swift Package Manager, add the following line to your Package.swift:
 
 ```swift
@@ -165,7 +164,6 @@ ScreenShieldRN.protectScreenRecording(); // Call the protectScreenRecording meth
 ```
 
 That's it! With just a few lines of code, you can protect your app's content and prevent it from being recorded or captured by unwanted screen capture mechanisms.
-
 
 ## Note: 
 Preventing screen capture in an iOS app presents challenges due to the lack of direct support from the iOS operating system. In our library, we've customized our code with various hacks and workarounds to achieve the desired result. Users may encounter occasional issues with a disrupted UI. To address this, consider the following approaches for different frameworks:
