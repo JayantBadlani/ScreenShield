@@ -168,10 +168,10 @@ That's it! With just a few lines of code, you can protect your app's content and
 ## Note: 
 Preventing screen capture in an iOS app presents challenges due to the lack of direct support from the iOS operating system. In our library, we've customized our code with various hacks and workarounds to achieve the desired result. Users may encounter occasional issues with a disrupted UI. To address this, consider the following approaches for different frameworks:
 
-For UIKit:
+**For UIKit:**
 To prevent the layout issue by incorporating "ScreenShield" protection to your view after the UI finishes loading. Implementing this protection in the viewDidAppear method can effectively mitigate layout problems.
 
-For SwiftUI:
+**For SwiftUI:**
 To prevent the layout issue, add the "ScreenShield" modifier to the outermost view in the hierarchy on the screen, ensuring a secure and protected user interface experience. 
 
 **⚠️ Warning** Please note that the library is currently under development, and contributions are greatly appreciated.
