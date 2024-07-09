@@ -165,6 +165,17 @@ ScreenShieldRN.protectScreenRecording(); // Call the protectScreenRecording meth
 
 That's it! With just a few lines of code, you can protect your app's content and prevent it from being recorded or captured by unwanted screen capture mechanisms.
 
+## Ensure files embedded on Xcode
+
+1. Right-click on your project in the Xcode project navigator and select "Add Files to [Your Project Name]":
+
+![AddFilesXcode](https://github.com/JayantBadlani/ScreenShield/assets/37996543/b2785cda-dfe5-4c7e-a7a1-3155e18fa0a5)
+
+2. Select the files you created in the previous steps and click "Add":
+
+![image](https://github.com/JayantBadlani/ScreenShield/assets/104543757/281c9a9f-9641-4e57-81c9-5cc85f6e3f9d)
+
+
 ## Note: 
 Preventing screen capture in an iOS app presents challenges due to the lack of direct support from the iOS operating system. In our library, we've customized our code with various hacks and workarounds to achieve the desired result. Users may encounter occasional issues with a disrupted UI. To address this, consider the following approaches for different frameworks:
 
@@ -175,17 +186,6 @@ To prevent the layout issue by incorporating "ScreenShield" protection to your v
 To prevent the layout issue, add the "ScreenShield" modifier to the outermost view in the hierarchy on the screen, ensuring a secure and protected user interface experience. 
 
 **⚠️ Warning** Please note that the library is currently under development, and contributions are greatly appreciated.
-
-
-## Ensure files embedded on Xcode
-
-1. Right-click on your project in the Xcode project navigator and select "Add Files to [Your Project Name]":
-
-![AddFilesXcode](https://github.com/JayantBadlani/ScreenShield/assets/37996543/b2785cda-dfe5-4c7e-a7a1-3155e18fa0a5)
-
-2. Select the files you created in the previous steps and click "Add":
-
-![image](https://github.com/JayantBadlani/ScreenShield/assets/104543757/281c9a9f-9641-4e57-81c9-5cc85f6e3f9d)
 
 
 ## License
