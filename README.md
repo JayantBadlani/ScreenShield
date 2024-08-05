@@ -31,7 +31,7 @@ To install ScreenShield using Swift Package Manager, add the following line to y
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/JayantBadlani/ScreenShield", from: "1.2.1")
+    .package(url: "https://github.com/JayantBadlani/ScreenShield", from: "1.2.2")
 ]
 ```
 
