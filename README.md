@@ -29,12 +29,16 @@ Then, run pod install to install the library and its dependencies.
 ## Swift Package Manager
 To install ScreenShield using Swift Package Manager, add the following line to your Package.swift:
 
+```swift
 dependencies: [
     .package(url: "https://github.com/JayantBadlani/ScreenShield", from: "1.2.1")
 ]
+```
+
 Then, run swift package update to download the library and its dependencies.
 
 ## Usage
+
 To use ScreenShield in your iOS app, simply import the library and call its methods to protect your views and listen for screen recordings.
 
 ### Here's an example of how to use the library with UIKit:
@@ -42,7 +46,6 @@ To use ScreenShield in your iOS app, simply import the library and call its meth
 ```ruby
 import UIKit
 import ScreenShield
-import React
 
 class ViewController: UIViewController {
     
@@ -94,9 +97,18 @@ This guide explains how to integrate the ScreenShield SDK into your React Native
 
 ## Usage
 
+**Note** On all steps below, it's recommended to create files using Xcode IDE, but if you have created files from the terminal or Visual Studio Code, you need to [add them to your Xcode project](#ensure-files-embedded-on-xcode).
+
+That is, you must make sure those files compiled and linked to your React Native project.
+
 ### 1. Add Swift File
 
-Create a Swift file named `ScreenShieldRN.swift` under your iOS root directory with the following content:
+Create/Add a Swift file **with XCode** named `ScreenShieldRN.swift` under your iOS root directory with the following content:
+
+![CreateSwiftFile-1](https://github.com/JayantBadlani/ScreenShield/assets/104543757/68a48fb4-b726-4ece-960f-c4906adc73aa)
+
+![CreateSwiftFile-2](https://github.com/JayantBadlani/ScreenShield/assets/37996543/2943bacc-e9a9-4d4d-a346-0a6e30e041e8)
+
 
 ```swift
 import Foundation
@@ -114,6 +126,7 @@ class ScreenShieldRN: NSObject {
     }
 }
 ```
+
 ### 2. Add Objective-C File
 Create an Objective-C file named ScreenShieldRN.m and add the following code:
 
@@ -152,18 +165,31 @@ ScreenShieldRN.protectScreenRecording(); // Call the protectScreenRecording meth
 
 That's it! With just a few lines of code, you can protect your app's content and prevent it from being recorded or captured by unwanted screen capture mechanisms.
 
+## Ensure files embedded on Xcode
+
+1. Right-click on your project in the Xcode project navigator and select "Add Files to [Your Project Name]":
+
+![AddFilesXcode](https://github.com/JayantBadlani/ScreenShield/assets/37996543/b2785cda-dfe5-4c7e-a7a1-3155e18fa0a5)
+
+2. Select the files you created in the previous steps and click "Add":
+
+![image](https://github.com/JayantBadlani/ScreenShield/assets/104543757/281c9a9f-9641-4e57-81c9-5cc85f6e3f9d)
+
+
 ## Note: 
 Preventing screen capture in an iOS app presents challenges due to the lack of direct support from the iOS operating system. In our library, we've customized our code with various hacks and workarounds to achieve the desired result. Users may encounter occasional issues with a disrupted UI. To address this, consider the following approaches for different frameworks:
 
-For UIKit:
+**For UIKit:**
 To prevent the layout issue by incorporating "ScreenShield" protection to your view after the UI finishes loading. Implementing this protection in the viewDidAppear method can effectively mitigate layout problems.
 
-For SwiftUI:
+**For SwiftUI:**
 To prevent the layout issue, add the "ScreenShield" modifier to the outermost view in the hierarchy on the screen, ensuring a secure and protected user interface experience. 
-## Please note that the library is currently under development, and contributions are greatly appreciated.
+
+**⚠️ Warning** Please note that the library is currently under development, and contributions are greatly appreciated.
 
 
-License
+## License
+
 ScreenShield is available under the MIT license. See the LICENSE file for more information.
 
 # Kindly give a Star ⭐ to my repo to support my work. Thank you!
