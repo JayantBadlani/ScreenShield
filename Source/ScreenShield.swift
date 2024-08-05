@@ -10,6 +10,7 @@ public class ScreenShield {
     public static let shared = ScreenShield()
     private var blurView: UIVisualEffectView?
     private var recordingObservation: NSKeyValueObservation?
+    private var blockingScreenMessage: String = "Screen recording not allowed"
     
     public func protect(window: UIWindow) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0, execute: {
@@ -23,10 +24,14 @@ public class ScreenShield {
         })
     }
     
-    public func protectFromScreenRecording() {
+    public func protectFromScreenRecording(_ blockingScreenMessage: String? = nil) {
         recordingObservation =  UIScreen.main.observe(\UIScreen.isCaptured, options: [.new]) { [weak self] screen, change in
-            let isRecording = change.newValue ?? false
             
+            if let errMessage = blockingScreenMessage {
+                self?.blockingScreenMessage = errMessage
+            }
+            
+            let isRecording = change.newValue ?? false
             if isRecording {
                 self?.addBlurView()
             } else {
@@ -42,7 +47,7 @@ public class ScreenShield {
         
         // Add a label to the blur view
         let label = UILabel()
-        label.text = "Screen recording not allowed"
+        label.text = self.blockingScreenMessage
         label.font = UIFont.boldSystemFont(ofSize: 20)
         label.textColor = .black
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -236,7 +241,10 @@ public final class ScreenshotProtectingView: UIView {
             containerName = "_UITextLayoutCanvasView"
         } else if #available(iOS 14, *) {
             containerName = "_UITextFieldCanvasView"
-        } else {
+        } else if #available(iOS 13, *) {
+            containerName = "_UITextFieldContentView"
+        }
+        else {
             let currentIOSVersion = (UIDevice.current.systemVersion as NSString).floatValue
             throw NSError(domain: "YourDomain", code: -1, userInfo: ["UnsupportedVersion": currentIOSVersion])
         }
