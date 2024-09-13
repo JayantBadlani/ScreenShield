@@ -115,14 +115,20 @@ extension UIView {
 
 //MARK:  SwiftUI
 public struct ProtectScreenshot: ViewModifier {
+    let protect: Bool
+
     public func body(content: Content) -> some View {
-        ScreenshotProtectView { content }
+        if protect {
+            ScreenshotProtectView { content }
+        } else {
+            content
+        }
     }
 }
 
 public extension View {
-    func protectScreenshot() -> some View {
-        modifier(ProtectScreenshot())
+    func protectScreenshot(_ protect: Bool = true) -> some View {
+        modifier(ProtectScreenshot(protect: protect))
     }
 }
 
