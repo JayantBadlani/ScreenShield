@@ -25,7 +25,7 @@ public class ScreenShield {
     }
     
     public func protectFromScreenRecording(_ blockingScreenMessage: String? = nil) {
-        recordingObservation =  UIScreen.main.observe(\UIScreen.isCaptured, options: [.new]) { [weak self] screen, change in
+        recordingObservation =  UIScreen.main.observe(\UIScreen.isCaptured, options: [.new, .initial]) { [weak self] screen, change in
             
             if let errMessage = blockingScreenMessage {
                 self?.blockingScreenMessage = errMessage
